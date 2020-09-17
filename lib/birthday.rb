@@ -10,4 +10,6 @@ def happy_birthday(birthday_kids)
   end
 end
 
-
+def age_appropriate_birday(birday_kids)
+  birthday_kids.each do |name, age|
+    if age < 
